@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../components/context/ThemeContext';
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Asegúrate de importar los íconos
+import 'bootstrap-icons/font/bootstrap-icons.css'; // íconos bootstrap 
 
 const Header = () => {
   const { theme, toggleTheme } = useTheme();

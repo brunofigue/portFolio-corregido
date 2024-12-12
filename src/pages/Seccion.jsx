@@ -1,7 +1,7 @@
 // SectionContact.jsx
 import ContactForm from "../components/ContactForm";
 
-const SectionContact = () => {
+const Seccion = () => {
   return (
     <section id="contact" className="contact py-5 bg-dark text-white">
       <div className="container">
@@ -12,5 +12,5 @@ const SectionContact = () => {
   );
 };
 
-export default SectionContact;
+export default Seccion;
 

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useTheme } from '../components/context/ThemeContext'; // Ajusta la ruta si es necesario
+import { useTheme } from '../components/context/ThemeContext'; 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 

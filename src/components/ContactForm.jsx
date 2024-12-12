@@ -23,10 +23,11 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container bg-dark text-light py-5">
-      <h3 className="text-center mb-4">Contáctame</h3>
+    <h3 className="text-center mb-4">Contáctame</h3>
+    <div className="container">
       <form onSubmit={handleSubmit}>
-        <div className="row">
-          <div className="col-md-6 mb-3">
+        <div className="row justify-content-center">
+        <div className="col-md-6 mb-3">
             <label htmlFor="name" className="form-label">Nombre</label>
             <input
               type="text"
@@ -52,7 +53,7 @@ const ContactForm = () => {
               required
             />
           </div>
-          <div className="col-md-12 mb-3">
+          <div className="col-md-8 col-lg-6 mb-3 w-100">
             <label htmlFor="message" className="form-label">Mensaje</label>
             <textarea
               className="form-control"
@@ -66,9 +67,10 @@ const ContactForm = () => {
             />
           </div>
         </div>
-        <button type="submit" className="btn btn-primary btn-sm w-100">Enviar</button>
+        <button type="submit" className="btn btn-primary btn-sm ">Enviar</button>
       </form>
     </div>
+  </div>
   );
 };
 

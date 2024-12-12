@@ -4,7 +4,7 @@ const Technologies = () => {
   return (
     <section id="technologies" className="technologies py-5 bg-dark text-white">
       <div className="container text-center">
-        <h3 className="mb-4">Tecnologías que manejo:</h3>
+        <h3 className="mb-4">Stack tecnológico :</h3>
         <div className="row justify-content-center">
           <div className="col-6 col-sm-4 col-md-2">
             <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" alt="HTML5" className="img-fluid" />

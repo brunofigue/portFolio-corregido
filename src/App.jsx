@@ -8,6 +8,7 @@ import About from './pages/About';
 import Home from './components/Home';
 import Projects from './pages/Projects';
 
+
 const App = () => {
   return (
     <Router> 

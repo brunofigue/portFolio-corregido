@@ -1,13 +1,21 @@
-import React from 'react';
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import React, { useEffect } from 'react';
+import { useTheme } from '../components/context/ThemeContext'; // Ajusta la ruta si es necesario
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Layout = ({ children }) => {
+  const { theme, toggleTheme } = useTheme();
+
+  // Aplicamos el tema al body cada vez que cambia
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
   return (
-    <div>
+    <div className={`layout ${theme}`}>
       <Header />
-      <main>{children}</main> 
-      <Footer/> 
+      <main>{children}</main>
+      <Footer />
     </div>
   );
 };

@@ -7,21 +7,23 @@ import About from './pages/About';
 import Home from './components/Home';
 import Projects from './pages/Projects';
 import Seccion from './pages/Seccion';
-
+import { ThemeProvider, useTheme } from './components/context/ThemeContext'; // Importamos el contexto
 
 const App = () => {
   return (
-    <Router> 
-      <Layout> 
-        <Routes> 
-          <Route path="/"element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/technologies" element={<Technologies />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Seccion />} />
-        </Routes>
-      </Layout>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/technologies" element={<Technologies />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Seccion />} />
+          </Routes>
+        </Layout>
+      </Router>
+    </ThemeProvider>
   );
 };
 

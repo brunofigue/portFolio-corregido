@@ -4,6 +4,42 @@ body {
     color: white;
     margin: 0;
   }
+/* Estilos generales para los temas */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Otros estilos de layout */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout header {
+  padding: 1rem;
+  background-color: inherit;
+}
+
+.layout main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.layout footer {
+  padding: 1rem;
+  background-color: inherit;
+  text-align: center;
+}
+
+
+
   h1, h2, h3 {
     font-family: 'Arial', sans-serif;
   }

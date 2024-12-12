@@ -25,7 +25,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects py-5 bg-dark text-light">
       <div className="container text-center">
-        <h3 className="mb-4">Mis Proyectos:</h3>
+        <h3 className="mb-4">Mis Proyectos</h3>
         <div className="row d-flex align-items-stretch">
           {projects.map((project, index) => (
             <div className="col-12 col-sm-6 col-md-4 mb-4" key={index}>

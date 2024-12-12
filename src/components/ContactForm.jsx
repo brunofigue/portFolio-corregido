@@ -10,7 +10,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert('Formulario enviado!');
-    // Aquí puedes agregar la lógica para enviar los datos a tu servidor
+    
   };
 
   const handleChange = (e) => {

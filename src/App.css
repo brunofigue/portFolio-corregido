@@ -1,0 +1,59 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+body {
+    background-color: #121212;
+    color: white;
+    margin: 0;
+  }
+  h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+  }
+  .technologies img {
+    margin-bottom: 10px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+  }
+  .project-image {
+    width: 100%;          /* imagen ocupa todo el ancho del contenedor */
+    height: 250px;        /* Define una altura uniforme */
+    object-fit: cover;    /* Recorta y ajusta la imagen para encajar sin deformarse */
+  }
+  footer {
+    background-color: #222;
+  }
+  /* Animación de desvanecimiento */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  .about {
+    background-color: #36383a;
+    color: #333;
+  }
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  .about .img-fluid {
+    max-width: 50%;
+    height: auto;
+  }
+  .about .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+

@@ -17,7 +17,6 @@ const Header = () => {
         <div className="d-flex justify-content-between align-items-center">
           {/* Título */}
           <h1>Mi Portafolio</h1>
-
           {/* Botón hamburguesa (solo visible en móviles) */}
           <button
             className="navbar-toggler d-lg-none"
@@ -30,7 +29,6 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
         </div>
-
         {/* Menú */}
         <nav
           className={`navbar-collapse ${menuOpen ? 'show' : 'collapse d-lg-flex justify-content-lg-center'}`}
@@ -44,7 +42,6 @@ const Header = () => {
             <li><Link to="/contact" className={`text-decoration-none ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>Contacto</Link></li>
           </ul>
         </nav>
-
         {/* Botón de tema */}
         <div className="text-center mt-3">
           <button

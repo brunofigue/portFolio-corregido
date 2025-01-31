@@ -7,7 +7,7 @@ import About from './pages/About';
 import Home from './components/Home';
 import Projects from './pages/Projects';
 import Seccion from './pages/Seccion';
-import { ThemeProvider, useTheme } from './components/context/ThemeContext'; // Importamos el contexto
+import { ThemeProvider, useTheme } from './components/context/ThemeContext'; // contexto
 
 const App = () => {
   return (

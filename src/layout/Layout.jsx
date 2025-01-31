@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const Layout = ({ children }) => {
   const { theme, toggleTheme } = useTheme();
 
-  // Aplicamos el tema al body cada vez que cambia
+  // Aplica el tema al body cada vez que cambia
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);

@@ -14,7 +14,7 @@ const Projects = () => {
       })
       .catch((error) => {
         console.error('Error al obtener los proyectos:', error);
-        setLoading(false); // En caso de error también desactivamos la carga
+        setLoading(false); // En caso de error también desactiv la carga
       });
   }, []); // Solo se ejecuta una vez cuando el componente se monta
 
